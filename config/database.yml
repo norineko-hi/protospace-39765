@@ -4,7 +4,6 @@ default: &default
 
 development:
   <<: *default
-    <<: *default
   adapter: mysql2
   username: root
   password:
@@ -13,7 +12,6 @@ development:
 
 test:
   <<: *default
-    <<: *default
   adapter: mysql2
   username: root
   password:
